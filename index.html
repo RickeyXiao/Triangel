@@ -3,46 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoiceMaster App</title>
+    <title>Triangel</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>VoiceMaster</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#support">Support</a></li>
-                <li><a href="#privacy">Privacy Policy</a></li>
-                <li><a href="#terms">Terms of Service</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Welcome to VoiceMaster</h2>
-            <p>Transform your voice into text effortlessly with VoiceMaster.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Triangel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apps">Our Apps</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#support">Support</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+        <section id="home" class="my-5">
+            <h2>Welcome to Triangel</h2>
+            <p>Your hub for innovative and powerful applications.</p>
         </section>
-        <section id="about">
+        <section id="about" class="my-5">
             <h2>About Us</h2>
-            <p>Learn more about our team and mission.</p>
+            <p>Learn more about our team and mission to create the best apps for you.</p>
         </section>
-        <section id="support">
+        <section id="apps" class="my-5">
+            <h2>Our Apps</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">VoiceMaster</h5>
+                            <p class="card-text">Transform your voice into text effortlessly with VoiceMaster.</p>
+                            <a href="voicemaster.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">App Name 2</h5>
+                            <p>Description of App 2.</p>
+                            <a href="app2.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">App Name 3</h5>
+                            <p>Description of App 3.</p>
+                            <a href="app3.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="support" class="my-5">
             <h2>Support</h2>
-            <p>Need help? Contact us at support@voicemasterapp.com.</p>
+            <p>Need help? Contact us at <a href="mailto:liwuyou432@gmail.com">liwuyou432@gmail.com</a>.</p>
         </section>
-        <section id="privacy">
+        <section id="privacy" class="my-5">
             <h2>Privacy Policy</h2>
             <p>Our commitment to your privacy.</p>
         </section>
-        <section id="terms">
+        <section id="terms" class="my-5">
             <h2>Terms of Service</h2>
             <p>Read our terms of service.</p>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 VoiceMaster. All rights reserved.</p>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Triangel. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
