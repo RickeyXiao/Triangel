@@ -1,2 +1,2 @@
-# Triangel
-The Triagel  Company homepage
+# triangelappstudio.github.io
+The Triagel App Studio Page
